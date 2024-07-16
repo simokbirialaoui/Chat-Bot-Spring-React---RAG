@@ -1,3 +1,17 @@
 # Chat Bot Spring React - RAG
 
-une application web full stack basée sur Spring React avec Vaadin qui permet de de mettre en oeuvre un Chat bot basé sur Retrieval Augmented Generation (RAG)
+full stack web application based on Spring React with Vaadin which allows you to implement a Chat bot based on Retrieval Augmented Generation (RAG)
+## Technologies
+
+- Backend:
+    - Spring Boot
+    - Spring Data JPA
+- Frontend:
+    - React
+- Database:
+    - PostgreSQL (configurable)
+- Chatbot:
+    - Llama3
+    - OpenAI API
+
+<img src="captures/1.png" alt="">
