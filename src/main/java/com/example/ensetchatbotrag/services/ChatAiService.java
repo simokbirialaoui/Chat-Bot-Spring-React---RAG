@@ -1,10 +1,13 @@
 package com.example.ensetchatbotrag.services;
 
 
+import com.vaadin.flow.server.auth.AnonymousAllowed;
+import com.vaadin.hilla.BrowserCallable;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
 
-@Service
+@BrowserCallable
+@AnonymousAllowed
 public class ChatAiService {
 
     private ChatClient chatClient;
